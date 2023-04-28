@@ -57,23 +57,22 @@
     filter: grayscale(0%);
 }
   
-/*responsive*/
-/* webpage */
+/*responsive tab size*/
 @media only screen and (max-width:768px)
 {
     .Gallery{
         display: flex;
         flex-direction:column;
-     width:100%;
+        width: 100%;
     }
    .container h1{
         font-size: 1rem;
         padding-right:10%;
     }
-     .card{
+    .card{
      width: 100%;
     }
- 
+/*  resposive mobilesize*/
 
 @media only screen and (max-width:600px)
 {
@@ -89,5 +88,4 @@
     .card{
         width: 100%;
     }
-
 
